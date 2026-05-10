@@ -1,0 +1,46 @@
+{
+  "recipesByLocale": {
+    "ru": [
+      {
+        "name": "Базовый хлеб на закваске",
+        "ingredients": [
+          { "name": "Мука", "category": "flour", "inputMode": "grams", "value": 500 },
+          { "name": "Вода", "category": "water", "inputMode": "bakerPercent", "value": 72 },
+          { "name": "Соль", "category": "salt", "inputMode": "bakerPercent", "value": 2 },
+          { "name": "Закваска", "category": "other", "inputMode": "bakerPercent", "value": 20 }
+        ],
+        "steps": [
+          { "title": "Автолиз", "details": "Смешайте муку и воду, оставьте тесто отдохнуть.", "timerSeconds": 3600 },
+          { "title": "Добавить соль и закваску", "details": "Вмешайте соль и закваску до однородности." },
+          { "title": "Складывание 1", "details": "Сделайте первое складывание.", "timerSeconds": 1800 },
+          { "title": "Складывание 2", "details": "Сделайте второе складывание.", "timerSeconds": 1800 },
+          { "title": "Складывание 3", "details": "Сделайте третье складывание.", "timerSeconds": 1800 },
+          { "title": "Складывание 4", "details": "Сделайте четвертое складывание.", "timerSeconds": 1800 },
+          { "title": "Ферментация", "details": "Оставьте тесто до увеличения объема.", "timerSeconds": 7200 },
+          { "title": "Выпечка", "details": "Выпекайте в разогретой духовке.", "timerSeconds": 2700 }
+        ]
+      }
+    ],
+    "en": [
+      {
+        "name": "Basic sourdough loaf",
+        "ingredients": [
+          { "name": "Flour", "category": "flour", "inputMode": "grams", "value": 500 },
+          { "name": "Water", "category": "water", "inputMode": "bakerPercent", "value": 72 },
+          { "name": "Salt", "category": "salt", "inputMode": "bakerPercent", "value": 2 },
+          { "name": "Starter", "category": "other", "inputMode": "bakerPercent", "value": 20 }
+        ],
+        "steps": [
+          { "title": "Autolyse", "details": "Mix flour and water, then let the dough rest.", "timerSeconds": 3600 },
+          { "title": "Add salt and starter", "details": "Mix in salt and starter until homogeneous." },
+          { "title": "Fold 1", "details": "Do the first fold.", "timerSeconds": 1800 },
+          { "title": "Fold 2", "details": "Do the second fold.", "timerSeconds": 1800 },
+          { "title": "Fold 3", "details": "Do the third fold.", "timerSeconds": 1800 },
+          { "title": "Fold 4", "details": "Do the fourth fold.", "timerSeconds": 1800 },
+          { "title": "Bulk fermentation", "details": "Let the dough rise until noticeably expanded.", "timerSeconds": 7200 },
+          { "title": "Bake", "details": "Bake in a preheated oven.", "timerSeconds": 2700 }
+        ]
+      }
+    ]
+  }
+}
