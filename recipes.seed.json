@@ -2,43 +2,319 @@
   "recipesByLocale": {
     "ru": [
       {
-        "name": "Базовый хлеб на закваске",
+        "name": "Тартин на закваске",
         "ingredients": [
-          { "name": "Мука", "category": "flour", "inputMode": "grams", "value": 500 },
-          { "name": "Вода", "category": "water", "inputMode": "bakerPercent", "value": 72 },
-          { "name": "Соль", "category": "salt", "inputMode": "bakerPercent", "value": 2 },
-          { "name": "Закваска", "category": "other", "inputMode": "bakerPercent", "value": 20 }
+          {
+            "id": "550e8400-e29b-41d4-a716-446655440001",
+            "name": "Закваска пшеничная",
+            "category": "other",
+            "inputMode": "grams",
+            "value": 100
+          },
+          {
+            "id": "550e8400-e29b-41d4-a716-446655440002",
+            "name": "Вода ледяная",
+            "category": "water",
+            "inputMode": "grams",
+            "value": 340
+          },
+          {
+            "id": "550e8400-e29b-41d4-a716-446655440003",
+            "name": "Мука пшеничная высшего сорта",
+            "category": "flour",
+            "inputMode": "grams",
+            "value": 450
+          },
+          {
+            "id": "550e8400-e29b-41d4-a716-446655440004",
+            "name": "Цельнозерновая пшеничная мука",
+            "category": "flour",
+            "inputMode": "grams",
+            "value": 50
+          },
+          {
+            "id": "550e8400-e29b-41d4-a716-446655440005",
+            "name": "Соль",
+            "category": "salt",
+            "inputMode": "grams",
+            "value": 12
+          }
         ],
         "steps": [
-          { "title": "Автолиз", "details": "Смешайте муку и воду, оставьте тесто отдохнуть.", "timerSeconds": 3600 },
-          { "title": "Добавить соль и закваску", "details": "Вмешайте соль и закваску до однородности." },
-          { "title": "Складывание 1", "details": "Сделайте первое складывание.", "timerSeconds": 1800 },
-          { "title": "Складывание 2", "details": "Сделайте второе складывание.", "timerSeconds": 1800 },
-          { "title": "Складывание 3", "details": "Сделайте третье складывание.", "timerSeconds": 1800 },
-          { "title": "Складывание 4", "details": "Сделайте четвертое складывание.", "timerSeconds": 1800 },
-          { "title": "Ферментация", "details": "Оставьте тесто до увеличения объема.", "timerSeconds": 7200 },
-          { "title": "Выпечка", "details": "Выпекайте в разогретой духовке.", "timerSeconds": 2700 }
+          {
+            "title": "Смешивание",
+            "details": "Смешайте закваску, ледяную воду, пшеничную муку высшего сорта и цельнозерновую муку. Тщательно перемешайте до однородности.",
+            "timerSeconds": null,
+            "ingredients": [
+              { "ingredientId": "550e8400-e29b-41d4-a716-446655440001", "amountOverride": null },
+              { "ingredientId": "550e8400-e29b-41d4-a716-446655440002", "amountOverride": null },
+              { "ingredientId": "550e8400-e29b-41d4-a716-446655440003", "amountOverride": null },
+              { "ingredientId": "550e8400-e29b-41d4-a716-446655440004", "amountOverride": null }
+            ]
+          },
+          {
+            "title": "Аутолиз",
+            "details": "Оставьте тесто на аутолиз на 30 минут.",
+            "timerSeconds": 1800,
+            "ingredients": []
+          },
+          {
+            "title": "Добавление соли и замес",
+            "details": "Добавьте соль, затем замешивайте тесто методом отбивания в течение 7–10 минут.",
+            "timerSeconds": 600,
+            "ingredients": [
+              { "ingredientId": "550e8400-e29b-41d4-a716-446655440005", "amountOverride": null }
+            ]
+          },
+          {
+            "title": "Отдых после замеса",
+            "details": "Дайте тесту отдохнуть 30 минут.",
+            "timerSeconds": 1800,
+            "ingredients": []
+          },
+          {
+            "title": "Складывание 1",
+            "details": "Сделайте первое складывание теста.",
+            "timerSeconds": 1800,
+            "ingredients": []
+          },
+          {
+            "title": "Складывание 2",
+            "details": "Сделайте второе складывание теста.",
+            "timerSeconds": 1800,
+            "ingredients": []
+          },
+          {
+            "title": "Складывание 3",
+            "details": "Сделайте третье складывание теста.",
+            "timerSeconds": 1800,
+            "ingredients": []
+          },
+          {
+            "title": "Складывание 4",
+            "details": "Сделайте четвёртое складывание теста.",
+            "timerSeconds": 1800,
+            "ingredients": []
+          },
+          {
+            "title": "Брожение",
+            "details": "Оставьте тесто для брожения при комнатной температуре на 1,5–2 часа.",
+            "timerSeconds": 7200,
+            "ingredients": []
+          },
+          {
+            "title": "Предформовка",
+            "details": "Сделайте предформовку теста.",
+            "timerSeconds": null,
+            "ingredients": []
+          },
+          {
+            "title": "Отдых после предформовки",
+            "details": "Дайте тесту отдохнуть 15 минут.",
+            "timerSeconds": 900,
+            "ingredients": []
+          },
+          {
+            "title": "Формовка",
+            "details": "Сформуйте хлеб и поместите в расстоечную корзину.",
+            "timerSeconds": null,
+            "ingredients": []
+          },
+          {
+            "title": "Отдых при комнатной температуре",
+            "details": "Оставьте заготовку при комнатной температуре на 30 минут.",
+            "timerSeconds": 1800,
+            "ingredients": []
+          },
+          {
+            "title": "Холодная расстойка",
+            "details": "Уберите тесто в холодильник на расстойку на 12–18 часов (температура 4–8 °C).",
+            "timerSeconds": 43200,
+            "ingredients": []
+          },
+          {
+            "title": "Разогрев духовки",
+            "details": "Разогрейте духовку с ёмкостью для выпечки (с крышкой) в течение 1 часа до 250 °C.",
+            "timerSeconds": 3600,
+            "ingredients": []
+          },
+          {
+            "title": "Надрезы",
+            "details": "Нанесите надрезы на тесто глубиной до 1,5 см с помощью лезвия или хлебного ножа.",
+            "timerSeconds": null,
+            "ingredients": []
+          },
+          {
+            "title": "Выпечка с паром",
+            "details": "Выпекайте хлеб под крышкой 15–20 минут при 250 °C.",
+            "timerSeconds": 1200,
+            "ingredients": []
+          },
+          {
+            "title": "Выпечка без пара",
+            "details": "Снимите крышку и выпекайте ещё 15–20 минут при 200 °C.",
+            "timerSeconds": 1200,
+            "ingredients": []
+          }
         ]
       }
     ],
     "en": [
       {
-        "name": "Basic sourdough loaf",
+        "name": "Sourdough Tartine",
         "ingredients": [
-          { "name": "Flour", "category": "flour", "inputMode": "grams", "value": 500 },
-          { "name": "Water", "category": "water", "inputMode": "bakerPercent", "value": 72 },
-          { "name": "Salt", "category": "salt", "inputMode": "bakerPercent", "value": 2 },
-          { "name": "Starter", "category": "other", "inputMode": "bakerPercent", "value": 20 }
+          {
+            "id": "550e8400-e29b-41d4-a716-446655440001",
+            "name": "Wheat starter",
+            "category": "other",
+            "inputMode": "grams",
+            "value": 100
+          },
+          {
+            "id": "550e8400-e29b-41d4-a716-446655440002",
+            "name": "Ice water",
+            "category": "water",
+            "inputMode": "grams",
+            "value": 340
+          },
+          {
+            "id": "550e8400-e29b-41d4-a716-446655440003",
+            "name": "White bread flour",
+            "category": "flour",
+            "inputMode": "grams",
+            "value": 450
+          },
+          {
+            "id": "550e8400-e29b-41d4-a716-446655440004",
+            "name": "Whole wheat flour",
+            "category": "flour",
+            "inputMode": "grams",
+            "value": 50
+          },
+          {
+            "id": "550e8400-e29b-41d4-a716-446655440005",
+            "name": "Salt",
+            "category": "salt",
+            "inputMode": "grams",
+            "value": 12
+          }
         ],
         "steps": [
-          { "title": "Autolyse", "details": "Mix flour and water, then let the dough rest.", "timerSeconds": 3600 },
-          { "title": "Add salt and starter", "details": "Mix in salt and starter until homogeneous." },
-          { "title": "Fold 1", "details": "Do the first fold.", "timerSeconds": 1800 },
-          { "title": "Fold 2", "details": "Do the second fold.", "timerSeconds": 1800 },
-          { "title": "Fold 3", "details": "Do the third fold.", "timerSeconds": 1800 },
-          { "title": "Fold 4", "details": "Do the fourth fold.", "timerSeconds": 1800 },
-          { "title": "Bulk fermentation", "details": "Let the dough rise until noticeably expanded.", "timerSeconds": 7200 },
-          { "title": "Bake", "details": "Bake in a preheated oven.", "timerSeconds": 2700 }
+          {
+            "title": "Mixing",
+            "details": "Mix the starter, ice water, white bread flour, and whole wheat flour until well combined.",
+            "timerSeconds": null,
+            "ingredients": [
+              { "ingredientId": "550e8400-e29b-41d4-a716-446655440001", "amountOverride": null },
+              { "ingredientId": "550e8400-e29b-41d4-a716-446655440002", "amountOverride": null },
+              { "ingredientId": "550e8400-e29b-41d4-a716-446655440003", "amountOverride": null },
+              { "ingredientId": "550e8400-e29b-41d4-a716-446655440004", "amountOverride": null }
+            ]
+          },
+          {
+            "title": "Autolyse",
+            "details": "Let the dough rest for 30 minutes (autolyse).",
+            "timerSeconds": 1800,
+            "ingredients": []
+          },
+          {
+            "title": "Add salt and mix",
+            "details": "Add the salt and knead the dough using the slap-and-fold method for 7–10 minutes.",
+            "timerSeconds": 600,
+            "ingredients": [
+              { "ingredientId": "550e8400-e29b-41d4-a716-446655440005", "amountOverride": null }
+            ]
+          },
+          {
+            "title": "Rest after mixing",
+            "details": "Let the dough rest for 30 minutes.",
+            "timerSeconds": 1800,
+            "ingredients": []
+          },
+          {
+            "title": "Fold 1",
+            "details": "Perform the first fold.",
+            "timerSeconds": 1800,
+            "ingredients": []
+          },
+          {
+            "title": "Fold 2",
+            "details": "Perform the second fold.",
+            "timerSeconds": 1800,
+            "ingredients": []
+          },
+          {
+            "title": "Fold 3",
+            "details": "Perform the third fold.",
+            "timerSeconds": 1800,
+            "ingredients": []
+          },
+          {
+            "title": "Fold 4",
+            "details": "Perform the fourth fold.",
+            "timerSeconds": 1800,
+            "ingredients": []
+          },
+          {
+            "title": "Bulk fermentation",
+            "details": "Let the dough ferment at room temperature for 1.5–2 hours.",
+            "timerSeconds": 7200,
+            "ingredients": []
+          },
+          {
+            "title": "Pre-shaping",
+            "details": "Pre-shape the dough.",
+            "timerSeconds": null,
+            "ingredients": []
+          },
+          {
+            "title": "Rest after pre-shaping",
+            "details": "Let the dough rest for 15 minutes.",
+            "timerSeconds": 900,
+            "ingredients": []
+          },
+          {
+            "title": "Shaping",
+            "details": "Shape the loaf and place it into a proofing basket.",
+            "timerSeconds": null,
+            "ingredients": []
+          },
+          {
+            "title": "Room‑temperature rest",
+            "details": "Leave the shaped dough at room temperature for 30 minutes.",
+            "timerSeconds": 1800,
+            "ingredients": []
+          },
+          {
+            "title": "Cold proof",
+            "details": "Refrigerate the dough for 12–18 hours (at 4–8 °C).",
+            "timerSeconds": 43200,
+            "ingredients": []
+          },
+          {
+            "title": "Preheat oven",
+            "details": "Preheat the oven with a lidded baking vessel for 1 hour to 250 °C.",
+            "timerSeconds": 3600,
+            "ingredients": []
+          },
+          {
+            "title": "Scoring",
+            "details": "Score the dough about 1.5 cm deep using a lame or bread knife.",
+            "timerSeconds": null,
+            "ingredients": []
+          },
+          {
+            "title": "Bake with steam",
+            "details": "Bake covered for 15–20 minutes at 250 °C.",
+            "timerSeconds": 1200,
+            "ingredients": []
+          },
+          {
+            "title": "Bake without steam",
+            "details": "Remove the lid and bake for another 15–20 minutes at 200 °C.",
+            "timerSeconds": 1200,
+            "ingredients": []
+          }
         ]
       }
     ]
