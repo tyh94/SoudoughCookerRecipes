@@ -1,0 +1,956 @@
+{
+  "version": 2,
+  "recipes": [
+    {
+      "id": "C7267B24-62DD-4EE4-8052-9A3B1827F347",
+      "name": {
+        "ru": "Тартин на закваске",
+        "en": "Sourdough Tartine"
+      },
+      "ingredients": [
+        {
+          "id": "550e8400-e29b-41d4-a716-446655440001",
+          "name": {
+            "ru": "Закваска пшеничная",
+            "en": "Wheat starter"
+          },
+          "category": "other",
+          "inputMode": "grams",
+          "value": 100
+        },
+        {
+          "id": "550e8400-e29b-41d4-a716-446655440002",
+          "name": {
+            "ru": "Вода ледяная",
+            "en": "Ice water"
+          },
+          "category": "water",
+          "inputMode": "grams",
+          "value": 340
+        },
+        {
+          "id": "550e8400-e29b-41d4-a716-446655440003",
+          "name": {
+            "ru": "Мука пшеничная высшего сорта",
+            "en": "White bread flour"
+          },
+          "category": "flour",
+          "inputMode": "grams",
+          "value": 450
+        },
+        {
+          "id": "550e8400-e29b-41d4-a716-446655440004",
+          "name": {
+            "ru": "Цельнозерновая пшеничная мука",
+            "en": "Whole wheat flour"
+          },
+          "category": "flour",
+          "inputMode": "grams",
+          "value": 50
+        },
+        {
+          "id": "550e8400-e29b-41d4-a716-446655440005",
+          "name": {
+            "ru": "Соль",
+            "en": "Salt"
+          },
+          "category": "salt",
+          "inputMode": "grams",
+          "value": 12
+        }
+      ],
+      "steps": [
+        {
+          "title": {
+            "ru": "Смешивание",
+            "en": "Mixing"
+          },
+          "details": {
+            "ru": "Смешайте закваску, ледяную воду, пшеничную муку высшего сорта и цельнозерновую муку. Тщательно перемешайте до однородности.",
+            "en": "Mix the starter, ice water, white bread flour, and whole wheat flour until well combined."
+          },
+          "timerSeconds": null,
+          "ingredients": [
+            {
+              "ingredientId": "550e8400-e29b-41d4-a716-446655440001",
+              "amountOverride": null
+            },
+            {
+              "ingredientId": "550e8400-e29b-41d4-a716-446655440002",
+              "amountOverride": null
+            },
+            {
+              "ingredientId": "550e8400-e29b-41d4-a716-446655440003",
+              "amountOverride": null
+            },
+            {
+              "ingredientId": "550e8400-e29b-41d4-a716-446655440004",
+              "amountOverride": null
+            }
+          ]
+        },
+        {
+          "title": {
+            "ru": "Аутолиз",
+            "en": "Autolyse"
+          },
+          "details": {
+            "ru": "Оставьте тесто на аутолиз на 30 минут.",
+            "en": "Let the dough rest for 30 minutes (autolyse)."
+          },
+          "timerSeconds": 1800,
+          "ingredients": []
+        },
+        {
+          "title": {
+            "ru": "Добавление соли и замес",
+            "en": "Add salt and mix"
+          },
+          "details": {
+            "ru": "Добавьте соль, затем замешивайте тесто методом отбивания в течение 7–10 минут.",
+            "en": "Add the salt and knead the dough using the slap-and-fold method for 7–10 minutes."
+          },
+          "timerSeconds": 600,
+          "ingredients": [
+            {
+              "ingredientId": "550e8400-e29b-41d4-a716-446655440005",
+              "amountOverride": null
+            }
+          ]
+        },
+        {
+          "title": {
+            "ru": "Отдых после замеса",
+            "en": "Rest after mixing"
+          },
+          "details": {
+            "ru": "Дайте тесту отдохнуть 30 минут.",
+            "en": "Let the dough rest for 30 minutes."
+          },
+          "timerSeconds": 1800,
+          "ingredients": []
+        },
+        {
+          "title": {
+            "ru": "Складывание 1",
+            "en": "Fold 1"
+          },
+          "details": {
+            "ru": "Сделайте первое складывание теста.",
+            "en": "Perform the first fold."
+          },
+          "timerSeconds": 1800,
+          "ingredients": []
+        },
+        {
+          "title": {
+            "ru": "Складывание 2",
+            "en": "Fold 2"
+          },
+          "details": {
+            "ru": "Сделайте второе складывание теста.",
+            "en": "Perform the second fold."
+          },
+          "timerSeconds": 1800,
+          "ingredients": []
+        },
+        {
+          "title": {
+            "ru": "Складывание 3",
+            "en": "Fold 3"
+          },
+          "details": {
+            "ru": "Сделайте третье складывание теста.",
+            "en": "Perform the third fold."
+          },
+          "timerSeconds": 1800,
+          "ingredients": []
+        },
+        {
+          "title": {
+            "ru": "Складывание 4",
+            "en": "Fold 4"
+          },
+          "details": {
+            "ru": "Сделайте четвёртое складывание теста.",
+            "en": "Perform the fourth fold."
+          },
+          "timerSeconds": 1800,
+          "ingredients": []
+        },
+        {
+          "title": {
+            "ru": "Брожение",
+            "en": "Bulk fermentation"
+          },
+          "details": {
+            "ru": "Оставьте тесто для брожения при комнатной температуре на 1,5–2 часа.",
+            "en": "Let the dough ferment at room temperature for 1.5–2 hours."
+          },
+          "timerSeconds": 7200,
+          "ingredients": []
+        },
+        {
+          "title": {
+            "ru": "Предформовка",
+            "en": "Pre-shaping"
+          },
+          "details": {
+            "ru": "Сделайте предформовку теста.",
+            "en": "Pre-shape the dough."
+          },
+          "timerSeconds": null,
+          "ingredients": []
+        },
+        {
+          "title": {
+            "ru": "Отдых после предформовки",
+            "en": "Rest after pre-shaping"
+          },
+          "details": {
+            "ru": "Дайте тесту отдохнуть 15 минут.",
+            "en": "Let the dough rest for 15 minutes."
+          },
+          "timerSeconds": 900,
+          "ingredients": []
+        },
+        {
+          "title": {
+            "ru": "Формовка",
+            "en": "Shaping"
+          },
+          "details": {
+            "ru": "Сформуйте хлеб и поместите в расстоечную корзину.",
+            "en": "Shape the loaf and place it into a proofing basket."
+          },
+          "timerSeconds": null,
+          "ingredients": []
+        },
+        {
+          "title": {
+            "ru": "Отдых при комнатной температуре",
+            "en": "Room‑temperature rest"
+          },
+          "details": {
+            "ru": "Оставьте заготовку при комнатной температуре на 30 минут.",
+            "en": "Leave the shaped dough at room temperature for 30 minutes."
+          },
+          "timerSeconds": 1800,
+          "ingredients": []
+        },
+        {
+          "title": {
+            "ru": "Холодная расстойка",
+            "en": "Cold proof"
+          },
+          "details": {
+            "ru": "Уберите тесто в холодильник на расстойку на 12–18 часов (температура 4–8 °C).",
+            "en": "Refrigerate the dough for 12–18 hours (at 4–8 °C)."
+          },
+          "timerSeconds": 43200,
+          "ingredients": []
+        },
+        {
+          "title": {
+            "ru": "Разогрев духовки",
+            "en": "Preheat oven"
+          },
+          "details": {
+            "ru": "Разогрейте духовку с ёмкостью для выпечки (с крышкой) в течение 1 часа до 250 °C.",
+            "en": "Preheat the oven with a lidded baking vessel for 1 hour to 250 °C."
+          },
+          "timerSeconds": 3600,
+          "ingredients": []
+        },
+        {
+          "title": {
+            "ru": "Надрезы",
+            "en": "Scoring"
+          },
+          "details": {
+            "ru": "Нанесите надрезы на тесто глубиной до 1,5 см с помощью лезвия или хлебного ножа.",
+            "en": "Score the dough about 1.5 cm deep using a lame or bread knife."
+          },
+          "timerSeconds": null,
+          "ingredients": []
+        },
+        {
+          "title": {
+            "ru": "Выпечка с паром",
+            "en": "Bake with steam"
+          },
+          "details": {
+            "ru": "Выпекайте хлеб под крышкой 15–20 минут при 250 °C.",
+            "en": "Bake covered for 15–20 minutes at 250 °C."
+          },
+          "timerSeconds": 1200,
+          "ingredients": []
+        },
+        {
+          "title": {
+            "ru": "Выпечка без пара",
+            "en": "Bake without steam"
+          },
+          "details": {
+            "ru": "Снимите крышку и выпекайте ещё 15–20 минут при 200 °C.",
+            "en": "Remove the lid and bake for another 15–20 minutes at 200 °C."
+          },
+          "timerSeconds": 1200,
+          "ingredients": []
+        }
+      ]
+    },
+    {
+      "id": "424c9194-e55d-4344-bc8e-fd64682ee53d",
+      "name": {
+        "ru": "Пшеничный хлеб с гречневыми хлопьями",
+        "en": "Wheat bread with buckwheat flakes"
+      },
+      "sourceURL": "https://www.instagram.com/reel/DazrBEbos1x",
+      "ingredients": [
+        {
+          "id": "e49e3980-a98a-4044-87a1-3f9cd5abf07c",
+          "name": {
+            "ru": "Опара 100% влажности",
+            "en": "Levain (100% hydration)"
+          },
+          "category": "other",
+          "inputMode": "grams",
+          "value": 200
+        },
+        {
+          "id": "649d2a46-21c7-454f-b8c7-bf3b246970b8",
+          "name": {
+            "ru": "Вода холодная",
+            "en": "Cold water"
+          },
+          "category": "water",
+          "inputMode": "grams",
+          "value": 476
+        },
+        {
+          "id": "f35652b1-bac0-4880-825b-286a75cbed2c",
+          "name": {
+            "ru": "Мука пшеничная в/с",
+            "en": "White bread flour"
+          },
+          "category": "flour",
+          "inputMode": "grams",
+          "value": 594
+        },
+        {
+          "id": "221c10a1-b8c3-488e-8e6b-5f167087688c",
+          "name": {
+            "ru": "Мука пшеничная цельнозерновая",
+            "en": "Whole wheat flour"
+          },
+          "category": "flour",
+          "inputMode": "grams",
+          "value": 120
+        },
+        {
+          "id": "c2268801-88e1-49df-8840-5d8eb92a7135",
+          "name": {
+            "ru": "Соль",
+            "en": "Salt"
+          },
+          "category": "salt",
+          "inputMode": "grams",
+          "value": 20
+        },
+        {
+          "id": "3b92647b-f97f-45d5-8db1-ac46a8aec01d",
+          "name": {
+            "ru": "Сахар",
+            "en": "Sugar"
+          },
+          "category": "other",
+          "inputMode": "grams",
+          "value": 20
+        },
+        {
+          "id": "d3fcd376-12e7-4b7c-b6f4-48168e967abb",
+          "name": {
+            "ru": "Масло растительное",
+            "en": "Vegetable oil"
+          },
+          "category": "other",
+          "inputMode": "grams",
+          "value": 25
+        },
+        {
+          "id": "5c202a63-fb34-44a3-a2ba-2ba637c5e02c",
+          "name": {
+            "ru": "Хлопья гречневые",
+            "en": "Buckwheat flakes"
+          },
+          "category": "other",
+          "inputMode": "grams",
+          "value": 75
+        },
+        {
+          "id": "0fb5e0e6-728d-4dd4-a8cd-512b3c2715c2",
+          "name": {
+            "ru": "Вода для замачивания хлопьев",
+            "en": "Water for soaking the flakes"
+          },
+          "category": "water",
+          "inputMode": "grams",
+          "value": 75
+        }
+      ],
+      "steps": [
+        {
+          "title": {
+            "ru": "Замачивание хлопьев",
+            "en": "Soaking the flakes"
+          },
+          "details": {
+            "ru": "Залейте гречневые хлопья холодной водой и оставьте на 2–3 часа.",
+            "en": "Cover the buckwheat flakes with cold water and leave for 2–3 hours."
+          },
+          "timerSeconds": 7200,
+          "ingredients": [
+            {
+              "ingredientId": "5c202a63-fb34-44a3-a2ba-2ba637c5e02c",
+              "amountOverride": null
+            },
+            {
+              "ingredientId": "0fb5e0e6-728d-4dd4-a8cd-512b3c2715c2",
+              "amountOverride": null
+            }
+          ]
+        },
+        {
+          "title": {
+            "ru": "Аутолиз",
+            "en": "Autolyse"
+          },
+          "details": {
+            "ru": "Перемешайте опару, холодную воду и оба вида муки. Оставьте на аутолиз на 30–40 минут.",
+            "en": "Mix the levain, cold water and both flours. Rest for autolyse for 30–40 minutes."
+          },
+          "timerSeconds": 2400,
+          "ingredients": [
+            {
+              "ingredientId": "e49e3980-a98a-4044-87a1-3f9cd5abf07c",
+              "amountOverride": null
+            },
+            {
+              "ingredientId": "649d2a46-21c7-454f-b8c7-bf3b246970b8",
+              "amountOverride": null
+            },
+            {
+              "ingredientId": "f35652b1-bac0-4880-825b-286a75cbed2c",
+              "amountOverride": null
+            },
+            {
+              "ingredientId": "221c10a1-b8c3-488e-8e6b-5f167087688c",
+              "amountOverride": null
+            }
+          ]
+        },
+        {
+          "title": {
+            "ru": "Замес",
+            "en": "Mixing"
+          },
+          "details": {
+            "ru": "Добавляйте по очереди, вымешивая тесто после каждого: сахар, соль, замоченные хлопья, растительное масло.",
+            "en": "Add one at a time, mixing the dough after each: sugar, salt, the soaked flakes, vegetable oil."
+          },
+          "timerSeconds": null,
+          "ingredients": [
+            {
+              "ingredientId": "3b92647b-f97f-45d5-8db1-ac46a8aec01d",
+              "amountOverride": null
+            },
+            {
+              "ingredientId": "c2268801-88e1-49df-8840-5d8eb92a7135",
+              "amountOverride": null
+            },
+            {
+              "ingredientId": "5c202a63-fb34-44a3-a2ba-2ba637c5e02c",
+              "amountOverride": null
+            },
+            {
+              "ingredientId": "d3fcd376-12e7-4b7c-b6f4-48168e967abb",
+              "amountOverride": null
+            }
+          ]
+        },
+        {
+          "title": {
+            "ru": "Обминка 1",
+            "en": "Fold 1"
+          },
+          "details": {
+            "ru": "Сделайте первую обминку и оставьте тесто на 40 минут.",
+            "en": "Do the first fold and leave the dough for 40 minutes."
+          },
+          "timerSeconds": 2400,
+          "ingredients": []
+        },
+        {
+          "title": {
+            "ru": "Обминка 2",
+            "en": "Fold 2"
+          },
+          "details": {
+            "ru": "Сделайте вторую обминку и оставьте тесто на 40 минут.",
+            "en": "Do the second fold and leave the dough for 40 minutes."
+          },
+          "timerSeconds": 2400,
+          "ingredients": []
+        },
+        {
+          "title": {
+            "ru": "Обминка 3",
+            "en": "Fold 3"
+          },
+          "details": {
+            "ru": "Сделайте третью обминку и оставьте тесто на 40 минут.",
+            "en": "Do the third fold and leave the dough for 40 minutes."
+          },
+          "timerSeconds": 2400,
+          "ingredients": []
+        },
+        {
+          "title": {
+            "ru": "Обминка 4",
+            "en": "Fold 4"
+          },
+          "details": {
+            "ru": "Сделайте четвёртую обминку и оставьте тесто на 40 минут.",
+            "en": "Do the fourth fold and leave the dough for 40 minutes."
+          },
+          "timerSeconds": 2400,
+          "ingredients": []
+        },
+        {
+          "title": {
+            "ru": "Брожение",
+            "en": "Bulk fermentation"
+          },
+          "details": {
+            "ru": "Оставьте тесто в покое на брожение на 1–1,5 часа.",
+            "en": "Leave the dough to ferment undisturbed for 1–1.5 hours."
+          },
+          "timerSeconds": 5400,
+          "ingredients": []
+        },
+        {
+          "title": {
+            "ru": "Деление и округление",
+            "en": "Dividing and rounding"
+          },
+          "details": {
+            "ru": "Разделите тесто и подкатайте заготовки в шар.",
+            "en": "Divide the dough and round the pieces."
+          },
+          "timerSeconds": null,
+          "ingredients": []
+        },
+        {
+          "title": {
+            "ru": "Отдых заготовок",
+            "en": "Bench rest"
+          },
+          "details": {
+            "ru": "Дайте заготовкам отдохнуть 15–20 минут.",
+            "en": "Let the pieces rest for 15–20 minutes."
+          },
+          "timerSeconds": 1200,
+          "ingredients": []
+        },
+        {
+          "title": {
+            "ru": "Формовка",
+            "en": "Shaping"
+          },
+          "details": {
+            "ru": "Сформуйте хлеб: в форму швом вниз для формового или в корзину швом вверх для подового.",
+            "en": "Shape the loaf: seam down into a tin for a pan loaf, or seam up into a banneton for a hearth loaf."
+          },
+          "timerSeconds": null,
+          "ingredients": []
+        },
+        {
+          "title": {
+            "ru": "Холодная расстойка",
+            "en": "Cold proof"
+          },
+          "details": {
+            "ru": "Уберите заготовку в холодильник на 12–16 часов.",
+            "en": "Put the loaf in the fridge for 12–16 hours."
+          },
+          "timerSeconds": 43200,
+          "ingredients": []
+        },
+        {
+          "title": {
+            "ru": "Выпечка с паром",
+            "en": "Bake with steam"
+          },
+          "details": {
+            "ru": "Выпекайте 20 минут при 250 °C с пароувлажнением.",
+            "en": "Bake for 20 minutes at 250 °C with steam."
+          },
+          "timerSeconds": 1200,
+          "ingredients": []
+        },
+        {
+          "title": {
+            "ru": "Выпечка без пара",
+            "en": "Bake without steam"
+          },
+          "details": {
+            "ru": "Уберите пар и выпекайте ещё 25 минут при 200 °C.",
+            "en": "Remove the steam and bake for another 25 minutes at 200 °C."
+          },
+          "timerSeconds": 1500,
+          "ingredients": []
+        }
+      ]
+    },
+    {
+      "id": "b4238bb8-d19b-4122-b57c-98caff9ff715",
+      "name": {
+        "ru": "Французская булка",
+        "en": "French sourdough bun"
+      },
+      "sourceURL": "https://www.instagram.com/reel/DV0kNGDiNDv/",
+      "ingredients": [
+        {
+          "id": "494eca28-54cc-468d-8abc-561e9ff2ae77",
+          "name": {
+            "ru": "Закваска",
+            "en": "Levain"
+          },
+          "category": "other",
+          "inputMode": "grams",
+          "value": 210
+        },
+        {
+          "id": "dec203bc-1968-49c8-9c48-5c9ddf65b126",
+          "name": {
+            "ru": "Мука",
+            "en": "Flour"
+          },
+          "category": "flour",
+          "inputMode": "grams",
+          "value": 555
+        },
+        {
+          "id": "27ca5012-749b-4c18-92c2-7f991c18eea5",
+          "name": {
+            "ru": "Вода",
+            "en": "Water"
+          },
+          "category": "water",
+          "inputMode": "grams",
+          "value": 275
+        },
+        {
+          "id": "4612ad1c-219b-40a5-879f-33e70b1a6b63",
+          "name": {
+            "ru": "Сахар",
+            "en": "Sugar"
+          },
+          "category": "other",
+          "inputMode": "grams",
+          "value": 25
+        },
+        {
+          "id": "1e284e9e-7637-4978-8336-b77e5f4553ad",
+          "name": {
+            "ru": "Соль",
+            "en": "Salt"
+          },
+          "category": "salt",
+          "inputMode": "grams",
+          "value": 12
+        },
+        {
+          "id": "46734fc6-2d04-4e15-be09-b8ee1e62880b",
+          "name": {
+            "ru": "Сливочное масло",
+            "en": "Butter"
+          },
+          "category": "other",
+          "inputMode": "grams",
+          "value": 25
+        },
+        {
+          "id": "2c4310f9-3185-4632-9d56-c7a78cbb3e8f",
+          "name": {
+            "ru": "Молоко",
+            "en": "Milk"
+          },
+          "category": "other",
+          "inputMode": "grams",
+          "value": 25
+        }
+      ],
+      "steps": [
+        {
+          "title": {
+            "ru": "День 1. Согреть закваску",
+            "en": "Day 1. Warm up the starter"
+          },
+          "details": {
+            "ru": "Достаньте закваску из холодильника и дайте ей согреться 1–2 часа.",
+            "en": "Take the starter out of the fridge and let it warm up for 1–2 hours."
+          },
+          "timerSeconds": 7200,
+          "ingredients": [
+            {
+              "ingredientId": "494eca28-54cc-468d-8abc-561e9ff2ae77",
+              "amountOverride": null
+            }
+          ]
+        },
+        {
+          "title": {
+            "ru": "День 1. Кормление утром",
+            "en": "Day 1. Morning feeding"
+          },
+          "details": {
+            "ru": "Покормите закваску в пропорции 1:1:1.",
+            "en": "Feed the starter at a 1:1:1 ratio."
+          },
+          "timerSeconds": null,
+          "ingredients": []
+        },
+        {
+          "title": {
+            "ru": "День 1. Кормление вечером",
+            "en": "Day 1. Evening feeding"
+          },
+          "details": {
+            "ru": "Вечером покормите закваску ещё раз, 1:1:1.",
+            "en": "In the evening feed the starter again, 1:1:1."
+          },
+          "timerSeconds": null,
+          "ingredients": []
+        },
+        {
+          "title": {
+            "ru": "День 2. Кормление и подъём",
+            "en": "Day 2. Feeding and rise"
+          },
+          "details": {
+            "ru": "Утром покормите закваску 1:1:1, рассчитав количество под рецепт. Дождитесь подъёма — обычно 3–5 часов.",
+            "en": "In the morning feed the starter 1:1:1, counting out how much the recipe needs. Wait until it rises — usually 3–5 hours."
+          },
+          "timerSeconds": 10800,
+          "ingredients": [
+            {
+              "ingredientId": "494eca28-54cc-468d-8abc-561e9ff2ae77",
+              "amountOverride": null
+            }
+          ]
+        },
+        {
+          "title": {
+            "ru": "Замес",
+            "en": "Mixing"
+          },
+          "details": {
+            "ru": "Размешайте закваску с водой (275–300 г, по муке) и молоком. Добавьте муку, тщательно перемешайте, накройте крышкой и оставьте на час.",
+            "en": "Stir the starter with the water (275–300 g, depending on the flour) and milk. Add the flour, mix thoroughly, cover and leave for an hour."
+          },
+          "timerSeconds": 3600,
+          "ingredients": [
+            {
+              "ingredientId": "494eca28-54cc-468d-8abc-561e9ff2ae77",
+              "amountOverride": null
+            },
+            {
+              "ingredientId": "27ca5012-749b-4c18-92c2-7f991c18eea5",
+              "amountOverride": null
+            },
+            {
+              "ingredientId": "2c4310f9-3185-4632-9d56-c7a78cbb3e8f",
+              "amountOverride": null
+            },
+            {
+              "ingredientId": "dec203bc-1968-49c8-9c48-5c9ddf65b126",
+              "amountOverride": null
+            }
+          ]
+        },
+        {
+          "title": {
+            "ru": "Соль и сахар",
+            "en": "Salt and sugar"
+          },
+          "details": {
+            "ru": "Добавьте соль и сахар. Вымешивайте руками 5–10 минут, отбивая тесто о стол.",
+            "en": "Add the salt and sugar. Knead by hand for 5–10 minutes, slapping the dough on the counter."
+          },
+          "timerSeconds": null,
+          "ingredients": [
+            {
+              "ingredientId": "1e284e9e-7637-4978-8336-b77e5f4553ad",
+              "amountOverride": null
+            },
+            {
+              "ingredientId": "4612ad1c-219b-40a5-879f-33e70b1a6b63",
+              "amountOverride": null
+            }
+          ]
+        },
+        {
+          "title": {
+            "ru": "Сливочное масло",
+            "en": "Butter"
+          },
+          "details": {
+            "ru": "Добавляйте сливочное масло по частям, продолжая вымешивать до гладкости.",
+            "en": "Add the butter in parts, kneading until the dough is smooth."
+          },
+          "timerSeconds": null,
+          "ingredients": [
+            {
+              "ingredientId": "46734fc6-2d04-4e15-be09-b8ee1e62880b",
+              "amountOverride": null
+            }
+          ]
+        },
+        {
+          "title": {
+            "ru": "Брожение",
+            "en": "Bulk fermentation"
+          },
+          "details": {
+            "ru": "Оставьте тесто бродить в контейнере при комнатной температуре. Через 1,5 часа сделайте складку.",
+            "en": "Leave the dough to ferment in a container at room temperature. After 1.5 hours do one fold."
+          },
+          "timerSeconds": 5400,
+          "ingredients": []
+        },
+        {
+          "title": {
+            "ru": "Складка",
+            "en": "Fold"
+          },
+          "details": {
+            "ru": "Сделайте одну складку теста.",
+            "en": "Do one fold of the dough."
+          },
+          "timerSeconds": null,
+          "ingredients": []
+        },
+        {
+          "title": {
+            "ru": "Брожение до конца",
+            "en": "Fermentation continues"
+          },
+          "details": {
+            "ru": "Оставьте тесто бродить ещё 1,5 часа.",
+            "en": "Leave the dough to ferment for another 1.5 hours."
+          },
+          "timerSeconds": 5400,
+          "ingredients": []
+        },
+        {
+          "title": {
+            "ru": "Деление и отдых",
+            "en": "Dividing and bench rest"
+          },
+          "details": {
+            "ru": "Разделите тесто на 2 части (можно оставить одной) и дайте полежать 20 минут на столе.",
+            "en": "Divide the dough into 2 pieces (or keep it as one) and let it rest on the counter for 20 minutes."
+          },
+          "timerSeconds": 1200,
+          "ingredients": []
+        },
+        {
+          "title": {
+            "ru": "Формовка",
+            "en": "Shaping"
+          },
+          "details": {
+            "ru": "Сложите тесто, переложите в корзинки.",
+            "en": "Shape the dough and place it into bannetons."
+          },
+          "timerSeconds": null,
+          "ingredients": []
+        },
+        {
+          "title": {
+            "ru": "Холодная расстойка",
+            "en": "Cold proof"
+          },
+          "details": {
+            "ru": "Уберите заготовки в холодильник на ночь.",
+            "en": "Put the loaves in the fridge overnight."
+          },
+          "timerSeconds": 43200,
+          "ingredients": []
+        },
+        {
+          "title": {
+            "ru": "День 3. Разогрев духовки",
+            "en": "Day 3. Preheat the oven"
+          },
+          "details": {
+            "ru": "Разогрейте духовку с чугунной кастрюлей до 250 °C.",
+            "en": "Preheat the oven with a cast-iron pot to 250 °C."
+          },
+          "timerSeconds": 3600,
+          "ingredients": []
+        },
+        {
+          "title": {
+            "ru": "Надрез и посадка",
+            "en": "Scoring and loading"
+          },
+          "details": {
+            "ru": "Достаньте тесто, сделайте надрез, сбрызните водой и положите в кастрюлю, добавив 6 кубиков льда.",
+            "en": "Take out the dough, score it, spritz with water and place it in the pot, adding 6 ice cubes."
+          },
+          "timerSeconds": null,
+          "ingredients": []
+        },
+        {
+          "title": {
+            "ru": "Выпечка с крышкой",
+            "en": "Bake with the lid on"
+          },
+          "details": {
+            "ru": "Выпекайте под крышкой при 250 °C 15–20 минут.",
+            "en": "Bake with the lid on at 250 °C for 15–20 minutes."
+          },
+          "timerSeconds": 1200,
+          "ingredients": []
+        },
+        {
+          "title": {
+            "ru": "Выпечка без крышки",
+            "en": "Bake with the lid off"
+          },
+          "details": {
+            "ru": "Снимите крышку и выпекайте при 200 °C ещё 15–20 минут.",
+            "en": "Remove the lid and bake at 200 °C for another 15–20 minutes."
+          },
+          "timerSeconds": 1200,
+          "ingredients": []
+        },
+        {
+          "title": {
+            "ru": "Проверка и остывание",
+            "en": "Check and cool"
+          },
+          "details": {
+            "ru": "Проверьте готовность термощупом — внутри должно быть 96–98 °C. Остудите хлеб на решётке.",
+            "en": "Check with a thermometer — it should read 96–98 °C inside. Cool the bread on a rack."
+          },
+          "timerSeconds": null,
+          "ingredients": []
+        }
+      ]
+    }
+  ]
+}
